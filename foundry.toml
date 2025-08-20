@@ -9,7 +9,7 @@
   gas_reports = ["*"]
   optimizer = true
   optimizer_runs = 10_000
-  out = "/node_modules_cache/foundry-template/out"
+  out = "out"
   script = "script"
   solc = "0.8.29"
   src = "src"
@@ -20,7 +20,7 @@
   verbosity = 4
 
 [etherscan]
-  mainnet = { key = "${API_KEY_ETHERSCAN}" }
+  mainnet = { key = "dummy" }
 
 [fmt]
   bracket_spacing = true
